@@ -32,21 +32,30 @@ end
 # method that takes in array
 def reverse_array_better(array)
 # the length of the list is the length of the array - 1	
-	listLength = array.length / 2
+	listHalf = array.length / 2
 	# go through each index of the array and push it into begining of array using .insert
 	#start with taking last index of original array
-	for i in 0..listLength
-		swap(i, listLength - i)
+	for i in 0..listHalf
 
+		array.insert(0, array.last)
 
 	end
+	array.inspect
+end
+puts list.inspect
+puts "reverse"
+puts reverse_array(list)
+puts ""
+puts reverse_array_better(list)
 
+
+def odd(list)
+	listLength = list.length
+		listLength.each do x
+		if x % 2 == 1
+			new_arr.push()
+		end
+	end
 end
 
-puts "original:"
-puts list.inspect
-puts "reverse:"
-reverse_array(list)
-puts ""
-puts ""
-reverse_array_better(list)
+
