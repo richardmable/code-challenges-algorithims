@@ -23,46 +23,43 @@ def code_combos
 		end
 	end
 end
-
-
-
-		# increment last number place through the given range eighth
-		# puts 1 1 1
-		# puts 1 1 2
-		# puts 1 1 3
-		# when this is complete, increment the second to last number, and then increment the last number through the range
-		# puts 1 2 1
-		# puts 1 2 2
-		# puts 1 2 3
-		# continue incrementing second to last number through range while repeating the range of the last number
-		# puts 1 3 1
-		# puts 1 3 2
-		# puts 1 3 3
-		# now increment the third to last number, then begin incrementing the last number
-		# puts 2 1 1
-		# puts 2 1 2
-		# puts 2 1 3
-		# increment second to last number, repeat the incrementation of the last number
-		# puts 2 2 1
-		# puts 2 2 2
-		# puts 2 2 3
-		# repeat pattern
-		# puts 2 3 1
-		# puts 2 3 2
-		# puts 2 3 3
-		# now increment leading number again and repeat the pattern
-		# puts 3 1 1
-		# puts 3 1 2
-		# puts 3 1 3
-		# incrementing second number...
-		# puts 3 2 1
-		# puts 3 2 2
-		# puts 3 2 3
-		# final round!
-		# puts 3 3 1
-		# puts 3 3 2
-		# puts 3 3 3
-		# 9 groups of 3 = 27 combinations, which is how many we expect for 3 numbers
+# increment last number place through the given range eighth
+# puts 1 1 1
+# puts 1 1 2
+# puts 1 1 3
+# when this is complete, increment the second to last number, and then increment the last number through the range
+# puts 1 2 1
+# puts 1 2 2
+# puts 1 2 3
+# continue incrementing second to last number through range while repeating the range of the last number
+# puts 1 3 1
+# puts 1 3 2
+# puts 1 3 3
+# now increment the third to last number, then begin incrementing the last number
+# puts 2 1 1
+# puts 2 1 2
+# puts 2 1 3
+# increment second to last number, repeat the incrementation of the last number
+# puts 2 2 1
+# puts 2 2 2
+# puts 2 2 3
+# repeat pattern
+# puts 2 3 1
+# puts 2 3 2
+# puts 2 3 3
+# now increment leading number again and repeat the pattern
+# puts 3 1 1
+# puts 3 1 2
+# puts 3 1 3
+# incrementing second number...
+# puts 3 2 1
+# puts 3 2 2
+# puts 3 2 3
+# final round!
+# puts 3 3 1
+# puts 3 3 2
+# puts 3 3 3
+# 9 groups of 3 = 27 combinations, which is how many we expect for 3 numbers
 
 
 		# first number stays
