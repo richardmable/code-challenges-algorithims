@@ -2,14 +2,7 @@
 # E.G.
 # ['a','b','c','f','g','h','j','m','p','s','t','u','v','aa','cc','ee'].miss_me => ['d','e','i','k','l','n','o','q','r','w','x','y','z','bb','dd']
 
-
 class Array
-
-	# example
-	# def length
-	# 	self.length
-	# end
-
 	def miss_me
 		# set alphabet array to compare to
 		alphabet = ('a'..'z').to_a
